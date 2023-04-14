@@ -29,7 +29,7 @@ RSpec.describe Race do
       expect(@race.register_candidate!(@diana)).to eq({name: "Diana D", party: :democrat})
     end
 
-    it "does the things" do
+    it "..." do
       @candidate1 = @race.register_candidate!({name: "Diana D", party: :democrat})
       expect(@candidate1.class).to eq(Candidate)
       expect(@candidate1.name).to eq("Diana D")
